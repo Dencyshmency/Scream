@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.wrapper_calculator {
+    width: 300px;
+    height: 500px;
+    background: rgb(240, 240, 240);
+    filter: brightness(100%);
+    border-radius: 3%;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+}
+
+.button_light {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 0px 0px;
+}
+
+.wrapper_button_light {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35px;
+    height: 18px;
+    padding-left: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55) inset;
+}
+
+
+.light {
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dark {
+    width: 14px;
+    height: 14px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    background: rgb(253, 253, 253);
+    width: 90%;
+    height: 70px;
+    border-radius: 2px;
+    margin: 20px 16px;
+}
+
+.line {
+    border: 1px solid rgb(207, 197, 198);
+    width: 89%;
+    margin: 0px auto;
+}
+
+.buttons {
+    width: 90%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+
+.buttons_panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.display_border {
+   border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.btn {
+    width: 3rem;
+    height: 3rem;
+    box-sizing: border-box;
+    background: rgb(240, 240, 240);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+   
+    margin: 5px 5px;
+}
+
+.orange {
+    color: rgb(247, 132, 0);
+    font-weight: 900;
+}
+
+.result, .display_result {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
