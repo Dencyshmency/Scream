@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Museo'; 
-	src: url(../MuseoSansCyrl-300.ttf); 
+	src: url(./MuseoSansCyrl-300.ttf); 
 }
 
 body {
-  background-image: url(../ilon.jpg);
+  background-image: url(./ilon.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
